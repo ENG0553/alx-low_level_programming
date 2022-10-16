@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** 
+
+/**
  * main - print alhpa in lower and upper case
  * Return: Akways 0
  */
