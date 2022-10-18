@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabet_10x - print 10x
+ * print_alphabet_x10 - print x10
  */
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 	int ten;
 	char la;
 
-	for (ten = 0; ten <= 0; ten++)
+	for (ten = 0; ten <= 9; ten++)
 	{
 		for (la = 'a'; la <= 'z'; la++)
 			_putchar(la);
