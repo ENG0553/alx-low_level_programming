@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * puts_half - print half
+ * @str: input
+ */
+void puts_half(char *str)
+{
+	int len =0;
+
+	while (*str != '\0')
+	{
+		len++;
+		str++;
+	}
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
+}
